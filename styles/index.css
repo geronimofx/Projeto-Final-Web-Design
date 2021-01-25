@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/797/773/179/audience-backlit-band-club-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
+
+header p{
+    font-size: 11px;
+}
+
+header ul{
+    float: right;
+    list-style: none;
+}
+
+header ul li{  
+    display: inline;
+    padding: 10px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 10px;
+}
+
+footer img{
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.Active{
+    color: #ebbbf1e8;
+}
+
+.passadorleft{
+    background: url("../imagens/setaleft.png");
+    height: 80px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.passadorright{
+    background: url("../imagens/setaright.png");
+    height: 80px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
